@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Animals</string>
+    <string name="flip_button">FLIP</string>
+    <string name="rotate_button">ROTATE</string>
+    <string name="next_fact">NEXT FACT</string>
+    <string name="delete_fact">DELETE FACT</string>
+    <string name="add_fact">ADD FACT</string>
+    <string name="add_fact_box">Enter Animal Fact Here</string>
+    <string name="lion_fact">Lions usually live in groups of 10 or 15 animals called prides</string>
+    <string name="tiger_fact">Every tiger in the world is unique – no two tigers have the same pattern of stripes.</string>
+    <string name="camel_fact">Camel humps store fat, which will be used as an energy source when food is not available.</string>
+    <string name="penguin_fact">Penguins closer to the equator eat more fish and penguins closer to Antarctica eat more squid and krill.</string>
+    <string name="cheetah_fact">The Cheetah is the fastest land animal in the world and can reach 112km/h in just three seconds.</string>
+    <string name="kangaroo_fact">Female kangaroos sport a pouch on their belly to cradle baby kangaroos, called joeys. </string>
+    <string name="rhino_fact">Despite their huge size and strength, Rhinos are herbivores and eat lots of grass and plants.</string>
+    <string name="eagle_fact">Eagles have amazing eyesight and can detect prey up to two miles away.</string>
+    <string name="croc_fact">Crocodiles have webbed feet which allow them to make fast turns and sudden moves in the water.</string>
+    <string name="bear_fact">Bears are very smart and have been known to roll rocks into bear traps to set them off and eat the bait in safety.</string>
+</resources>

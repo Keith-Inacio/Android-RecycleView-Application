@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="150dp"
+        />
+
+    <EditText
+        android:id="@+id/addFact"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="@string/add_fact_box"
+        android:layout_above="@+id/translation"
+        />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/addFact"
+        android:text="@string/add_fact"
+        android:textSize="12dp"
+        android:layout_above="@+id/translation"
+        android:layout_alignParentRight="true"/>
+
+    <LinearLayout
+        android:id="@+id/translation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <Button
+                android:id="@+id/rotateButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rotate_button"/>
+
+                <Button
+                android:id="@+id/flipButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/flip_button"/>
+        </LinearLayout>
+
+            <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp">
+
+                <ImageView
+                android:id="@+id/arrowupImg"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_toEndOf="@+id/arrowbackImg"
+                android:src="@drawable/ic_arrow_upward" />
+
+                <ImageView
+                android:id="@+id/padImg"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/arrowupImg"
+                android:layout_toEndOf="@+id/arrowbackImg"
+                android:src="@drawable/ic_pad" />
+
+                <ImageView
+                android:id="@+id/arrowbackImg"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/arrowupImg"
+                android:src="@drawable/ic_arrow_back" />
+
+                <ImageView
+                android:id="@+id/arrowforwardImg"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/arrowupImg"
+                android:layout_toEndOf="@+id/padImg"
+                android:src="@drawable/ic_arrow_forward" />
+
+                <ImageView
+                android:id="@+id/arrowdownImg"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/padImg"
+                android:layout_toEndOf="@+id/arrowbackImg"
+                android:src="@drawable/ic_arrow_downward" />
+            </RelativeLayout>
+        </LinearLayout>
+</RelativeLayout>
