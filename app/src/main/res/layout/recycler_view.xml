@@ -16,7 +16,6 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:inputType="text"
-        android:text="@string/add_fact_box"
         android:layout_above="@+id/translation"
         />
 
